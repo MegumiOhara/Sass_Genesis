@@ -1,0 +1,12 @@
+@use '/styles/fonts';
+
+.header{
+    width: 100%;
+    max-width: 1109px;
+    margin-top:61px;
+    padding-left:126px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
