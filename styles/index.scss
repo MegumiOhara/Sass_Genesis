@@ -2,8 +2,35 @@
 @import 'base';
 @import 'header';
 
+main{
+    margin: 0 auto;
+    
+}
+.intro{
+    grid-area: intro; 
+    width: 100%;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-
+    &__text{
+        width: 100%;
+        max-width: 635px;
+        min-height: 251px;
+    }
+    &__isub{
+        display: flex;
+        align-self: flex-end;
+    }
+}
+.grid-gallery{
+    display: flex;
+    align-items: center;
+}
+@import 'gallery';
 @import 'product';
 @import 'contact';
 @import 'footer';

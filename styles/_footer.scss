@@ -9,7 +9,7 @@ footer{
 .fot{
     width: 100%;
     max-width: 1110px;
-
+    
     &__nav{
         width: 100%;
         max-width: 1109px;
@@ -21,6 +21,7 @@ footer{
     }
     &__li{
         list-style-type: none;
+        text-decoration: none;
         padding: 30px; 
     }
    /* &__soc{
@@ -29,6 +30,7 @@ footer{
     }*/
     &__link{
         text-decoration: none;
+        color: black;
         font-size: 18px;
         font-weight: 700;
     }
