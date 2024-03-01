@@ -38,6 +38,7 @@ main{
     max-width: 1079px;
     padding-right:50px;
     padding-top: 40px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,7 +64,7 @@ main{
         padding-top: 10px;
     }
 }
-
+@import 'awards';
 
 
 @import 'product';
