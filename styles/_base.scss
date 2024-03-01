@@ -1,11 +1,16 @@
 body{
+    width: 100%;
     font-family: fonts.$main-font;
+    color: #111111;
     margin: 0 auto;
     background-color: aquamarine;
 }
 h3{
-    color: fonts.$secondary-font;
+    color: #4A4FF2;
 }
 h1{
-    font: fonts.$h1;
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
 }
