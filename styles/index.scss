@@ -31,9 +31,40 @@ main{
 }
 @import 'gallery';
 
-.grid-awards{
+.service{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 106px;
+    max-width: 1079px;
+    padding-right:50px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*position: relative;
+    right: 20px; */
 
+    &__text{
+        width: 100%;
+        max-width: 635px;  
+        
+    }
+    &__list{
+        font-size: 18px;
+        color: #111111;
+    }
+    &__li{
+        list-style-type: none;
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        column-gap: 70px;
+        row-gap: 10px;
+        text-align: left;
+        padding-top: 10px;
+    }
 }
+
+
 
 @import 'product';
 @import 'contact';
