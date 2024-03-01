@@ -3,14 +3,14 @@
 @import 'header';
 
 main{
-    margin: 0 auto;
-    
-}
-.intro{
-    grid-area: intro; 
     width: 100%;
-    margin: 50px;
-    padding: 20px;
+    margin: 0 auto;
+}
+.intro{ 
+    width: 100%;
+    max-width: 1109px;
+    margin: 0 auto;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,10 +24,17 @@ main{
     &__isub{
         display: flex;
         align-self: flex-end;
+        position: relative;
+        right: 58px;
+        bottom: 20px
     }
 }
-
 @import 'gallery';
+
+.grid-awards{
+
+}
+
 @import 'product';
 @import 'contact';
 @import 'footer';

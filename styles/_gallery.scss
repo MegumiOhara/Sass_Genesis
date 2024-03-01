@@ -1,8 +1,9 @@
 .grid-gallery{
     width: 100%;
-    /*min-height: 1960px;*/
-    display: flex;
-    justify-content: center;
+    max-width:1110px;
+    max-height: 1960px;
+    margin: 0 auto;
+    padding-top: 50px;
     
 }
 .gall-container{
