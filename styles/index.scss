@@ -1,7 +1,13 @@
 @use './fonts';
+@import 'base';
 @import 'header';
 
-body{
-    font-family: fonts.$main-font;
-    margin: 0 auto;
+
+.intro{
+    display: flex;
+    justify-content: space-between;
 }
+
+@import 'product';
+@import 'contact';
+@import 'footer';
