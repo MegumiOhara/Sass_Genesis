@@ -1,6 +1,6 @@
 .grid-gallery{
     width: 100%;
-    min-height: 1960px;
+    /*min-height: 1960px;*/
     display: flex;
     justify-content: center;
     
@@ -14,7 +14,7 @@
 }
 .one{
     grid-row: 1/ span 6;
-    grid-column: 1/ span 3;
+    grid-column: 1/ span 2;
 }
 .two{
     grid-row: 1/span 5;
@@ -53,10 +53,16 @@
     grid-column: 1/ span 2;
 }
 .eleven{
-    grid-row: 20/span 10;
+    grid-row: 20/span 9;
     grid-column: 3/ span 2;
 }
 .twelve{
     grid-row: 24/ span 5;
     grid-column: 5/ span 2;
+}
+
+.art{
+    height: 100%;
+	width: 100%;
+	object-fit: cover;
 }

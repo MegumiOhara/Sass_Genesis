@@ -26,10 +26,7 @@ main{
         align-self: flex-end;
     }
 }
-.grid-gallery{
-    display: flex;
-    align-items: center;
-}
+
 @import 'gallery';
 @import 'product';
 @import 'contact';
