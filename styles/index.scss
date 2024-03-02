@@ -28,7 +28,16 @@ main{
         right: 58px;
         bottom: 20px
     }
+    &__word{
+        color: #4A4FF2;
+    }
 }
+.intro_hr{
+    width: 30px;
+    position: relative;
+    left: 32px; 
+}
+
 @import 'gallery';
 
 .service{
@@ -64,8 +73,9 @@ main{
         padding-top: 10px;
     }
 }
-@import 'awards';
+/*@import 'awards';*/
 
+@import 'awards2';
 
 @import 'product';
 @import 'contact';
