@@ -24,6 +24,7 @@
         max-width: 475px;
         height: 174px;
         line-height: 55px;
+        text-align: left;
     }
     &__sub{
         width: 100%;
@@ -59,4 +60,18 @@ button{
 }
 button:hover{
     border: 2px solid white;
+}
+.location{
+    margin-top:46px;
+    margin-bottom: 50px;
+    padding:20px;
+}
+/*Just in case for*/
+.map{
+    width: 100%;
+    max-width: 1110px;
+    min-height: 570px;
+}
+.map:hover{
+    border: 1px dotted grey;
 }
