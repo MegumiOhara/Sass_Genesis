@@ -1,0 +1,62 @@
+.contact__main{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+.contact{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__text{
+        padding-bottom: 50px;
+        position: relative;
+        bottom: 35px;
+    
+    }
+    &__title{
+        width: 100%;
+        max-width: 475px;
+        height: 174px;
+        line-height: 55px;
+    }
+    &__sub{
+        width: 100%;
+        max-width: 445px;
+        height: 56px;
+    }
+}
+.contact__form{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 475px;
+    min-height: 291px;
+    
+}
+.input-field, .textarea{
+    font-size:16px;
+    width: 475px;
+    height: 37px;
+    margin-bottom: 46px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    resize: none;
+}
+.input-field:hover, .textarea:hover{
+    border: 1px solid black;
+}
+button{
+    background-color: #4A4FF2;
+    color:#FFFFFF;
+    padding: 14px 35px 16px 35px;
+    border: none;
+    margin-top: 38px;
+}
+button:hover{
+    border: 2px solid white;
+}
