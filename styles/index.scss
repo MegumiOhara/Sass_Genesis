@@ -51,13 +51,10 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*position: relative;
-    right: 20px; */
 
     &__text{
         width: 100%;
         max-width: 635px;  
-        
     }
     &__list{
         font-size: 18px;
